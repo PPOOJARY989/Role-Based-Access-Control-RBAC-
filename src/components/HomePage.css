@@ -1,0 +1,119 @@
+/* HomePage.css */
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Layout */
+.home-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.home-header {
+  text-align: center;
+  background-image: url('https://via.placeholder.com/1600x500'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 50px 20px;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.3);
+}
+
+.home-header h1 {
+  background-image: url('https://media.istockphoto.com/id/1295905518/photo/technology-safety-of-future-and-cybernetic-on-internet-fingerprint-scan-provides-access-of.jpg?s=612x612&w=0&k=20&c=HS0_ytcVLosdDlu0Y-5gv_SfKJxBeNG9CHxSaBA_578=');
+  background-size: cover;
+
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Content Section */
+.home-content {
+  background-color: #f0f2f5;
+  padding: 50px 20px;
+  flex: 1;
+}
+
+.content-row {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-description {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.card-button {
+  border-radius: 8px;
+  font-weight: 600;
+  background-color: #6D55D2;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.card-button:hover {
+  background-color: #1890ff;
+}
+
+/* Footer Section */
+.home-footer {
+  text-align: center;
+  background-color: #1890ff;
+  color: #fff;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
+
+/* Icons */
+.card .ant-card-extra {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-header h1 {
+    font-size: 2rem;
+  }
+
+  .content-row {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-button {
+    font-size: 14px;
+  }
+}
+
