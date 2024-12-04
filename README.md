@@ -32,7 +32,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository**:
    ```bash
-   git clone <(https://github.com/varshith5577/RBAC-UI.git)>
+   git clone <(https://github.com/PPOOJARY989/Role-Based-Access-Control-RBAC-.git)>
    ```
 
 2. **Install dependencies**:
