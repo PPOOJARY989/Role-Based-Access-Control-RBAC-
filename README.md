@@ -83,9 +83,9 @@ Follow these steps to set up the project locally:
 
 ## 👨‍💻 Author
 
-Developed by **<VARSHITH_REDDY>**.
+Developed by **<Pawan_Poojary>**.
 
-For any queries or collaboration, feel free to contact me at `<varshithredyvrr@gmail.com>`.
+For any queries or collaboration, feel free to contact me at `<pawanpoojary989@gmail.com>`.
 
 ---
 
